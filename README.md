@@ -1,8 +1,5 @@
- 
-
-
-> Open this page at [https://tellmehey.github.io/bfg-complex/](https://tellmehey.github.io/bfg-complex/)
-##This was made in MakeCode Arcade.
+ > Open this page at [https://tellmehey.github.io/bfg-complex/](https://tellmehey.github.io/bfg-complex/)
+## This was made in MakeCode Arcade.
 ## BFG Complex
 placeholder des here
 ## Blocks in the game
