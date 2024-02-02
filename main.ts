@@ -1,6 +1,4 @@
-info.onLifeZero(function () {
-    game.gameOver(false)
-})
+let chapter = 1
 let mySprite2 = sprites.create(img`
     ........................
     ........................
@@ -28,3 +26,8 @@ let mySprite2 = sprites.create(img`
     ........................
     `, SpriteKind.Player)
 controller.moveSprite(mySprite2)
+forever(function () {
+    if (chapter == 8) {
+        game.gameOver(true)
+    }
+})
