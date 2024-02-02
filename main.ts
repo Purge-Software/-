@@ -1,5 +1,9 @@
+let mySprite: Sprite = null
+scene.centerCameraAt(8, 8)
+tiles.placeOnTile(mySprite, tiles.getTileLocation(8, 1))
+tiles.setCurrentTilemap(tilemap`level1`)
 let chapter = 1
-let mySprite2 = sprites.create(img`
+mySprite = sprites.create(img`
     ........................
     ........................
     ........................
@@ -25,7 +29,7 @@ let mySprite2 = sprites.create(img`
     ........................
     ........................
     `, SpriteKind.Player)
-controller.moveSprite(mySprite2)
+controller.moveSprite(mySprite, 40, 40)
 forever(function () {
     if (chapter == 8) {
         game.gameOver(true)
