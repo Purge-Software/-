@@ -1,4 +1,4 @@
- > Open this page at [https://tellmehey.github.io/bfg-complex/](https://tellmehey.github.io/bfg-complex/)
+ > Open this page at [https://purge-software.github.io/bfg-complex/](https://tellmehey.github.io/bfg-complex/)
 ## This was made in MakeCode Arcade.
 I finally did not use scratch for once.
 ## BFG Complex
